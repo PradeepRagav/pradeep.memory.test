@@ -1,0 +1,203 @@
+<html lang="en">
+<meta http-equiv="X-UA-Compatible" content="IE=10">
+<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' https://www.google-analytics.com data: ;
+          script-src 'self' http://quickolabs.com http://eu.quickolabs.com; style-src 'self' http://quickolabs.com http://eu.quickolabs.com 'unsafe-inline'; frame-src 'self' http://quickolabs.com http://eu.quickolabs.com; connect-src 'self' http://eu.quickolabs.com http://quickolabs.com;"> -->
+
+  <head>
+    <link rel="shortcut icon" href="#" />
+    <title>Sample "Testing Web-Page</title>
+    <!-- <script language='javascript' async='true' type='text/javascript' src='https://quickolabs.com/82f67571-7640-445d-9b89-5d8db8b2aaaf/embed/embed.nocache.js'></script> -->
+    <!-- <script language='javascript' async='true' type='text/javascript' src='https://uataz.quickolabs.com/2d36c9b2-58ad-4dcb-bc98-c210990a52bf/embed/embed.nocache.js'></script> -->
+
+<!-- <script language='javascript' async='true' type='text/javascript' src='/quickolabs.com/embed/embed.nocache.js'></script> -->
+
+<!-- <script language='javascript' async='true' type='text/javascript' src='//embed.quickolabs.com/52898a90-72b7-11ec-bf79-024277c2eed7/embed/embed.nocache.js'></script>  -->
+ <!-- <script language='javascript' defer='true' type='text/javascript' src='//quickolabs.com/cb783660-9ac5-11eb-ac78-12994df0448d/embed/embed.nocache.js'></script> -->
+ <!-- sentry script -->
+ <!-- <script language='javascript' async='true' type='text/javascript' src='//quickolabs.com/1e9cca80-37bd-11ea-a3e6-04013d24cf02/embed/embed.nocache.js'></script> -->
+<!--  <script language='javascript' async='false' type='text/javascript' src='/InstanceUtils.js'></script> -->
+ <!-- <script language='javascript' async='true' type='text/javascript' src='https://quickolabs.com/d43ace6d-9de8-403b-b8cd-bf37564efa4b/embed/embed.nocache.js'></script>  -->
+ <!-- <script language='javascript' async='true' type='text/javascript' src='https://cdn.quickolabs.com/prod/52898a90-72b7-11ec-bf79-024277c2eed7/initiator/initiator.nocache.js'></script> -->
+<!-- <script language='javascript' async='true' type='text/javascript' src='https://eu.quickolabs.com/37fb9910-dddc-11e9-af18-960000278c7a/embed/embed.nocache.js'></script> -->
+<!-- <script language='javascript' async='true' type='text/javascript' src='https://embed.quickolabs.com/9e2aeb10-8fb8-11ec-a5c3-024277c2eed7/embed/embed.nocache.js'></script> -->
+    <!-- <script language='javascript' async='true' type='text/javascript' src='//whatfix.com/d31d6cd0-14c3-11e9-812c-04013d24cd02/embed/embed.nocache.js'></script> -->
+
+ <!-- <script language='javascript' async='true' type='text/javascript' src='https://cdn.quickolabs.com/prod/52898a90-72b7-11ec-bf79-024277c2eed7/embed/embed.nocache.js'></script> -->
+ <!-- <script language='javascript' async='true' type='text/javascript' src='/whatfix.com/embed/embed.nocache.js'></script> -->
+
+ <!-- <script language='javascript' async='true' type='text/javascript' src='https://test.quickolabs.com/prod/04177db0-ccd9-11eb-b014-86000056c6b9/embed/embed.nocache.js'></script>  -->
+ <!-- <script language='javascript' async='true' type='text/javascript' src='//uataz.quickolabs.com/e91c8fa0-1b66-11ec-8ab2-86000056c6d8 /embed/embed.nocache.js'></script> -->
+
+<!-- <script language='javascript' async='true' type='text/javascript' src='//test.quickolabs.com/prod/149d8400-5615-11e9-a455-d43b0489ad5a/embed/embed.nocache.js'></script>  -->
+
+<!-- <script language='javascript' async='true' type='text/javascript' src='//whatfix.com/d31d6cd0-14c3-11e9-812c-04013d24cd02/embed/embed.nocache.js'></script>   -->
+<!-- <script language='javascript' async='true' type='text/javascript' src='https://cdn.quickolabs.com/prod/04177db0-ccd9-11eb-b014-86000056c6b9/initiator/initiator.nocache.js'></script> -->
+<!-- <script language='javascript' async='true' type='text/javascript' src='https://cdn.whatfix.com/prod/d31d6cd0-14c3-11e9-812c-04013d24cd02/embed/embed.nocache.js'></script> -->
+
+</head>
+<!-- <iframe id = "dummy" src = "quickolabs.com" title="dummy_iframe"></iframe> -->
+  <body bgcolor=white>
+      <tr>         
+        <td>
+          <h1 class="headerClass">Index.html File ..</h1> 
+        </td>
+      </tr>
+    <p>This is the home page for the HelloWorld Web application. </p>
+    <p>To prove that they work, you can execute either of the following links:
+    <ul>
+      <li>To a <a id = '1' href="http://localhost:8000/test.html" target="_blank" title="hello">JSP page</a>.
+      <li>To a <a id = '2' href="http://google.com/" target="_blank">servlet</a>.
+    </ul>
+
+
+    <button id="remove-button" href="https://google.com/" type="button" target="_blank" aria-describedby="gd2516604-1aa3-996f-406b-cab334af2da2">Button</button>  
+    <!-- <video controls="" autoplay="" name="media"><source src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3" type="audio/mp3"></video> -->
+
+    <br> <br>
+    <button id="remove-button" onclick ="javascript:
+    //Removing all scripts from head
+var scripts = document.querySelectorAll('head > script');
+for (var i = 0; i < scripts.length; i++) {
+        //console.log(scripts[i].src);
+        scripts[i].parentElement.removeChild(scripts[i]);
+        /*if(scripts[i] && scripts[i].src && !scripts[i].src.includes('embed')){
+          scripts[i].parentElement.removeChild(scripts[i]);
+        }*/
+}
+
+
+//Removing all iFrames from body
+var scripts = document.querySelectorAll('iframe');
+if (scripts.length > 0) {
+    for (var i = 0; i < scripts.length; i++) {
+        //console.log(scripts[i].src);
+        scripts[i].parentElement.removeChild(scripts[i]);
+        /*if(scripts[i] && scripts[i].src && !scripts[i].src.includes('embed')){
+         scripts[i].parentElement.removeChild(scripts[i]);
+        }*/
+    }
+}
+
+var previewModeEditor = document.querySelector('#wfx-preview-marker-popup');
+if(previewModeEditor){
+    console.log('remving previewMode toggle');
+    previewModeEditor.parentElement.removeChild(previewModeEditor);
+}
+
+var shIcon = document.querySelector('#_widget_wfx_');
+if(shIcon){
+    console.log('remving shIcon');
+    shIcon.parentElement.removeChild(shIcon);
+}
+
+
+//Removing all scripts from body
+var scripts = document.querySelectorAll('script');
+if (scripts.length > 0) {
+    for (var i = 0; i < scripts.length; i++) {
+        //console.log(scripts[i].src);
+        scripts[i].parentElement.removeChild(scripts[i]);
+    }
+}
+
+    " type="button" target="_blank">Remove iFrame & Scripts</button>   
+    <br> <br>
+    <a onclick ="javascript:window._wfx_flow='557a8b70-7433-11ea-9ff2-525400cca952'; window._wfx_live && window._wfx_live();">Anchor</a> 
+
+
+<p>
+<input type="radio" name="gender" value="male" label="gender" checked> Male<br>
+<input type="radio" name="gender" label="female" value="female"> Female<br>
+<input type="radio" name="other" label = "other" value="other"> Other<br><br>
+</p>
+
+<input type="checkbox" name="vehicle" value="Bike" tabindex="0">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car</input>
+
+<br>
+<br>
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="val1">CHECK MT STATUS - FUNDS NOT RECEIVED. INFO PROVIDED AS REQUESTED. ESCALATED TO T2/T3</option>
+  <option value="val2">CHECK MT STATUS - INFO REQUEST PROVIDED AS REQUESTED</option>
+  <option value="val3">CHECK MT STATUS - INFO</option>
+  <option value="val3">---112434</option>
+  <option value="val5">..value</option>
+  <option value="val6">.HELLO</option>  
+</select>
+
+
+<br></br>
+<iframe id = "gaurav" src = "test.html" width="1000" height="400" title="gaurav_iframe"></iframe>
+<br></br>
+
+Email only: <input type="text" name="email"><br><br>
+Web Address: <input type="text" name="homepage"><br><br>
+Phone Number: <input type="text" name="phone"><br><br>
+Address: <input type="text" name="address"><br><br>
+
+
+
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other<br><br>
+
+
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car
+
+
+
+<br>
+<br>
+
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+<br></br>
+<br></br>
+
+
+<div style="background-color:lightblue">
+  <h2>This is a heading</h2>
+  <p>This is a paragraph.</p>
+</div>
+
+
+
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female"> Female<br>
+<input type="radio" name="gender" value="other"> Other<br><br>
+
+
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car
+<br>
+<br>
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+<br></br>
+<br></br>
+
+<br></br>
+<br></br>
+<br></br>
+<div id="descriptionClose" role="tooltip">Closing this window will discard any information entered and 
+return you back to the main page</div>
+
+<span role="tooltip" id="gd2516604-1aa3-996f-406b-cab334af2da2" class="deque-tooltip deque-hidden" aria-hidden="true" style="left: 165px; bottom: 120%;"><span aria-label="Tooltip :"></span>Your given name</span>
+  </body>
+</html>
+    
